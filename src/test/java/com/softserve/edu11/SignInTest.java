@@ -117,7 +117,7 @@ public class SignInTest {
                 Arguments.of(email, "with whiteSpace1!", generalErrorMessage),
                 Arguments.of(email, "21CharactersLongPass!", "Password must be less than 20 characters long without spaces."),
                 Arguments.of(email, "NoSpecialChar1", generalErrorMessage),
-                Arguments.of(email, "NoDigitChar1!", generalErrorMessage),
+                Arguments.of(email, "NoDigitChar!", generalErrorMessage),
                 Arguments.of(email, "no_upper_case_char1", generalErrorMessage)
         );
     }
