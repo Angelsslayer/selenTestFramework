@@ -180,5 +180,4 @@ public class SignInTest {
     public static void clearLocalStorage() {
         ((JavascriptExecutor) driver).executeScript("window.localStorage.clear();");
     }
-
 }
