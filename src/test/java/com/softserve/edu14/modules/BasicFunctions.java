@@ -1,20 +1,17 @@
-package com.softserve.edu13.modules;
+package com.softserve.edu14.modules;
 
-import com.softserve.edu13.utils.ConfigLoader;
-import com.softserve.edu13.utils.ElementNotFoundException;
+import com.softserve.edu14.utils.ElementNotFoundException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 import java.util.function.Supplier;
 
-import static com.softserve.edu13.test.TestsRunner.BASE_URL;
-import static com.softserve.edu13.test.TestsRunner.IMPLICIT_WAIT_SECONDS;
-import static com.softserve.edu13.utils.Utils.isUserCurrentlyLoggedIn;
+import static com.softserve.edu14.test.TestsRunner.*;
+import static com.softserve.edu14.utils.Utils.isUserCurrentlyLoggedIn;
 
 public abstract class BasicFunctions {
     protected WebDriver driver;
